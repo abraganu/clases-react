@@ -1,19 +1,14 @@
-import Article from './components/Article/Article'
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <>
-      <div className="App" style={{ width: '30%' }}>
-        <Article
-          title="mi primer Articulo"
-          titleColor="#757ce8"
-        />
-      </div>
-      <div style={{ width: '30%' }}>
-        <Article
-          title="mi segundo Articulo"
-          titleColor="#ff7961"
-        />
+      <div>
+        <h1>Buttons</h1>
+        <Button text="Run Payroll" size="Small" color="Primary" />
+        <Button text="Run Late Payroll" size="Small" color="Warning" />
+        <Button text="Make Changes" />
+        <Button text="Bug button" size="Large" color="Danger" />
       </div>
     </>
   );

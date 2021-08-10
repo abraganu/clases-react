@@ -1,8 +1,8 @@
 import './styles.css'
 
 function Button({text, size, color}) {
-    const buttonSize = size ? size : 'Default'
-    const buttonColor = color ? color : 'Default'
+    const buttonSize = size ? size : 'DefaultSize'
+    const buttonColor = color ? color : 'DefaultColor'
 
     return (
         <button className={`Button ${buttonSize} ${buttonColor}`}>

@@ -15,8 +15,11 @@
     padding: 15px 52px;
 }
 
-.Default {
+.DefaultSize {
     padding: 10px 42px;
+}
+
+.DefaultColor {
     background-color: #5BD3F0;
 }
 
